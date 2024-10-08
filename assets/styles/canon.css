@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.canonh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: canon;
+    color: #C60000;
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+ 
+
+.canonbanner{
+    padding: 10px;
+    margin-top: 80px;
+    background-color: #916C14;
+    padding: 50px 10px;
+}
+.canonbanner .bannertext{
+    flex-direction: column;
+}
+.bannertext h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #ffffff;
+}
+ 
+.canonbanner .bannerimg{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.canonbanner .bannerimg img{
+    width: 70%;
+    filter: drop-shadow(#aeaba7);
+
+    
+    animation: floating 2s ease-in-out infinite;
+
+}
+.canonbanner .bannertext a{
+    margin-top: 20px;
+   
+        background: #f39c12;
+        color: #fff !important;
+        padding: .5rem 3rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        text-align: center;
+        text-decoration: none;
+}
+.canonbanner .bannertext a:hover{
+    background: #fff;
+        box-shadow: 0px 2px 20px 10px rgb(175,109,27) ;
+        color: #000 !important;
+}
+ 
+
+@keyframes floating {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.panasonicfont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.panasonicfont img{
+    width: 400px !important;    
+}
+
+
+ 

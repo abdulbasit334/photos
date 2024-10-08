@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    outline: none;
+}
+
+
+ 
+
+.contact {
+    /* background-color: #f9f9f9;  */
+    padding: 20px;
+    border-radius: 10px; 
+     margin-top: 100px;
+    
+    
+}
+.firstname{
+    position: absolute;
+    padding: 10px;
+    text-transform: uppercase;
+   
+}
+.firstborder{
+    border: 1px solid #d5c1c1  ;
+
+}
+input:valid ~ .firstname,
+input:focus ~ .firstname{
+    color: #916C14 !important;
+    transform: translateX(10px) translateY(-7px);
+    transition: .5s;
+    font-size: 16px;
+    padding: 0 10px ;
+    background-color: #fff;
+    border-right: 1px solid #916C14;
+    border-left: 1px solid #916C14;
+     
+    letter-spacing: 5px;
+}
+
+ input:valid , input:focus{
+    border: 1px solid #916C14  ;
+}
+ .firstname:valid,.firstborder:focus{
+    transition: .5s;
+    border: 1px solid #916C14  !important;
+
+ }
+
+
+ 
+
+.lastborder{
+    position: relative;
+}
+.lastborder span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    pointer-events: none;
+    font-size: 16px;
+    transition: .5s;
+}
+.lastborder input{
+    border: 1px solid #d5c1c1  ;
+    transition: .5s;
+
+}
+.lastborder input:valid ~ span, 
+.lastborder input:focus ~ span{
+    color: #ffffff;
+    transform: translateX(10px) translateY(-12px);
+    padding: 0 10px;
+    border-right: 1px solid #916C14;
+    border-left: 1px solid #916C14;
+    background-color: #916C14;
+    border-radius: 4px;
+    letter-spacing: 5px;
+}
+.lastborder input:valid , 
+.lastborder input:focus{
+    border: 1px solid #916C14;
+   
+
+} 
+
+
+.emailborder{
+    position: relative;
+}
+
+.emailborder span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    pointer-events: none;
+    font-size: 16px;
+    transition: .5s;
+}
+.emailborder input{
+    border: 1px solid #d5c1c1  ;
+    transition: .5s;
+
+}
+.emailborder input:valid ~ span, 
+.emailborder input:focus ~ span{
+    color: #916C14;
+    transform: translateX(10px) translateY(-12px);
+    padding: 0 10px;
+    border-right: 1px solid #916C14;
+    border-left: 1px solid #916C14;
+    background-color: #fff;
+    
+    letter-spacing: 5px;
+}
+.emailborder input:valid , 
+.emailborder input:focus{
+    border: 1px solid #916C14;
+   transition: .5s;
+
+} 
+
+
+
+
+
+
+.mobileborder{
+    position: relative;
+}
+
+.mobileborder span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    pointer-events: none;
+    font-size: 16px;
+    transition: .5s;
+}
+.mobileborder input{
+    border: 1px solid #d5c1c1  ;
+    transition: .5s;
+
+}
+.mobileborder input:valid ~ span, 
+.mobileborder input:focus ~ span{
+    color: #ffffff;
+    transform: translateX(10px) translateY(-12px);
+    padding: 0 10px;
+    border-right: 1px solid #916C14;
+    border-left: 1px solid #916C14;
+    background-color: #916C14;
+    border-radius: 4px;
+    letter-spacing: 5px;
+    
+}
+.mobileborder input:valid , 
+.mobileborder input:focus{
+    border: 1px solid #916C14;
+   transition: .5s;
+
+} 
+
+ 
+
+
+
+
+.contact input, .contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: none !important;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    color: #916C14;
+    border: 1px solid #d5c1c1 ! ;
+    transition: .5s;
+    outline: none;
+}
+
+.contact > .row h1 {
+    text-align: center;
+    color: #916C14;
+    margin-bottom: 50px;
+    
+}
+ 
+ .contact input{
+    margin-bottom: 20px !important;
+ }
+ 
+.contact textarea{
+    min-height: 100px;
+    max-height: 100px;
+    color: #916C14;
+
+}
+textarea::-webkit-scrollbar{
+    width: 8px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: #916C14;
+    cursor: pointer;
+    
+}
+.contact-h1{
+    justify-content: start;
+ 
+    display: flex;
+    color: #916C14;
+}
+ 
+ .textarea{
+    margin-top: -40px;
+ }
